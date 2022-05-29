@@ -1,0 +1,10 @@
+.estiloGral {
+    background-color: #ff783b;
+    color: #F0F0F0;
+    margin-top: 10px;
+}
+
+.footer {
+    @extend .estiloGral;
+    padding: 15px;
+}

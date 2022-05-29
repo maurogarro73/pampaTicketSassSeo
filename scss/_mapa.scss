@@ -1,0 +1,8 @@
+$estilo:(color:#273440,tamFuente:25px);
+
+.card{
+    h3 {
+        background-color: map-get($estilo, color);
+        font-size: map-get($estilo, tamFuente);
+    }
+}

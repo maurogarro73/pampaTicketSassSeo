@@ -1,0 +1,13 @@
+@mixin h1 {
+    color: #F0F0F0;
+    font-family: 'Murecho', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 10px;
+}
+
+h2 {
+    @include h1;
+    color: black;
+    border-bottom: 1px rgb(159, 248, 5) solid;
+}
